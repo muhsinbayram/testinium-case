@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="Tests.SearchResultsTest">
+        <methods>
+          <include name="secondPage"/>
+        </methods>
+      </class> <!-- Tests.SearchResultsTest -->
+      <class name="Tests.LoginTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Tests.LoginTest -->
+      <class name="Tests.SearchTest">
+        <methods>
+          <include name="search"/>
+        </methods>
+      </class> <!-- Tests.SearchTest -->
+      <class name="Tests.AddToBasketTest">
+        <methods>
+          <include name="addToBasket"/>
+        </methods>
+      </class> <!-- Tests.AddToBasketTest -->
+      <class name="Tests.ProductSelectTest">
+        <methods>
+          <include name="productSelect"/>
+        </methods>
+      </class> <!-- Tests.ProductSelectTest -->
+      <class name="Tests.BasketTest">
+        <methods>
+          <include name="basketOps"/>
+        </methods>
+      </class> <!-- Tests.BasketTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

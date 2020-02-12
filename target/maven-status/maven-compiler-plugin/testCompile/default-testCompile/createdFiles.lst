@@ -1,0 +1,7 @@
+Tests\TestBase.class
+Tests\BasketTest.class
+Tests\SearchResultsTest.class
+Tests\SearchTest.class
+Tests\AddToBasketTest.class
+Tests\ProductSelectTest.class
+Tests\LoginTest.class

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-12T19:02:40 EET" name="Command line suite" finished-at="2020-02-12T19:03:12 EET" duration-ms="31617">
+    <groups>
+      <group name="basketOps">
+        <method signature="BasketTest.basketOps()[pri:0, instance:Tests.BasketTest@2f9f7dcf]" name="basketOps" class="Tests.BasketTest"/>
+      </group> <!-- basketOps -->
+      <group name="productSelect">
+        <method signature="ProductSelectTest.productSelect()[pri:0, instance:Tests.ProductSelectTest@35e2d654]" name="productSelect" class="Tests.ProductSelectTest"/>
+      </group> <!-- productSelect -->
+      <group name="secondPage">
+        <method signature="SearchResultsTest.secondPage()[pri:0, instance:Tests.SearchResultsTest@1bd4fdd]" name="secondPage" class="Tests.SearchResultsTest"/>
+      </group> <!-- secondPage -->
+      <group name="search">
+        <method signature="SearchTest.search()[pri:0, instance:Tests.SearchTest@55183b20]" name="search" class="Tests.SearchTest"/>
+      </group> <!-- search -->
+      <group name="addToBasket">
+        <method signature="AddToBasketTest.addToBasket()[pri:0, instance:Tests.AddToBasketTest@5b8dfcc1]" name="addToBasket" class="Tests.AddToBasketTest"/>
+      </group> <!-- addToBasket -->
+      <group name="login">
+        <method signature="LoginTest.login()[pri:0, instance:Tests.LoginTest@747ddf94]" name="login" class="Tests.LoginTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2020-02-12T19:02:40 EET" name="Command line test" finished-at="2020-02-12T19:03:12 EET" duration-ms="31617">
+      <class name="Tests.SearchResultsTest">
+        <test-method signature="secondPage()[pri:0, instance:Tests.SearchResultsTest@1bd4fdd]" started-at="2020-02-12T19:02:47 EET" name="secondPage" description="Navigating to the second page" depends-on-groups="search" finished-at="2020-02-12T19:02:55 EET" duration-ms="7688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondPage -->
+      </class> <!-- Tests.SearchResultsTest -->
+      <class name="Tests.BasketTest">
+        <test-method signature="basketOps()[pri:0, instance:Tests.BasketTest@2f9f7dcf]" started-at="2020-02-12T19:03:08 EET" name="basketOps" description="Performing basket operations" depends-on-groups="addToBasket" finished-at="2020-02-12T19:03:12 EET" duration-ms="3574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basketOps -->
+      </class> <!-- Tests.BasketTest -->
+      <class name="Tests.AddToBasketTest">
+        <test-method signature="addToBasket()[pri:0, instance:Tests.AddToBasketTest@5b8dfcc1]" started-at="2020-02-12T19:03:02 EET" name="addToBasket" description="Adding the item to basket" depends-on-groups="productSelect" finished-at="2020-02-12T19:03:08 EET" duration-ms="5992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToBasket -->
+      </class> <!-- Tests.AddToBasketTest -->
+      <class name="Tests.TestBase">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Tests.TestBase@72967906]" started-at="2020-02-12T19:02:19 EET" name="initialize" finished-at="2020-02-12T19:02:40 EET" duration-ms="20585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.TestBase@72967906]" started-at="2020-02-12T19:03:12 EET" name="teardown" finished-at="2020-02-12T19:03:12 EET" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.TestBase -->
+      <class name="Tests.ProductSelectTest">
+        <test-method signature="productSelect()[pri:0, instance:Tests.ProductSelectTest@35e2d654]" started-at="2020-02-12T19:02:55 EET" name="productSelect" description="Selecting a random product" depends-on-groups="secondPage" finished-at="2020-02-12T19:03:02 EET" duration-ms="7185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSelect -->
+      </class> <!-- Tests.ProductSelectTest -->
+      <class name="Tests.SearchTest">
+        <test-method signature="search()[pri:0, instance:Tests.SearchTest@55183b20]" started-at="2020-02-12T19:02:42 EET" name="search" description="Initiating the search" depends-on-groups="login" finished-at="2020-02-12T19:02:47 EET" duration-ms="5197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- Tests.SearchTest -->
+      <class name="Tests.LoginTest">
+        <test-method signature="login()[pri:0, instance:Tests.LoginTest@747ddf94]" started-at="2020-02-12T19:02:40 EET" name="login" description="Logging in" finished-at="2020-02-12T19:02:42 EET" duration-ms="1948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

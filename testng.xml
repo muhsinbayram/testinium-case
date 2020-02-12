@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testinium - n11 Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="n11 Test">
+        <classes>
+            <class name="Tests.TestBase" />
+            <class name="Tests.LoginTest" />
+            <class name="Tests.SearchTest" />
+            <class name="Tests.SearchResultsTest" />
+            <class name="Tests.ProductSelectTest" />
+            <class name="Tests.AddToBasketTest" />
+            <class name="Tests.BasketTest" />
+        </classes>
+    </test>
+</suite>
